@@ -69,4 +69,4 @@ a.m1() // run
 [david-dev-image]: https://david-dm.org/sugarshin/noop-decorator/dev-status.svg?style=flat-square
 [david-dev-url]: https://david-dm.org/sugarshin/noop-decorator#info=devDependencies
 [license-image]: https://img.shields.io/:license-mit-blue.svg?style=flat-square
-[license-url]: https://sugarshin.mit-license.org/a
+[license-url]: https://sugarshin.mit-license.org/
