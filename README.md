@@ -58,7 +58,7 @@ a.m1() // run
 
 © sugarshin
 
-[circleci-image]: https://circleci.com/gh/sugarshin/noop-decorator/tree/master.svg?style=svg&circle-token=65ad85a8639d11a0253d47b371f2d80387ffb137
+[circleci-image]: https://circleci.com/gh/sugarshin/noop-decorator/tree/master.svg?style=svg&circle-token=e41eafea4fc95c44f0be00be4aef0c18954891df
 [circleci-url]: https://circleci.com/gh/sugarshin/noop-decorator/tree/master
 [coveralls-image]: https://coveralls.io/repos/github/sugarshin/noop-decorator/badge.svg?branch=master
 [coveralls-url]: https://coveralls.io/github/sugarshin/noop-decorator?branch=master
