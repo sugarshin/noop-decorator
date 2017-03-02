@@ -6,7 +6,8 @@
   "module": "es/index.js",
   "jsnext:main": "es/index.js",
   "files": [
-    "lib"
+    "lib",
+    "es"
   ],
   "repository": "https://github.com/sugarshin/noop-decorator",
   "author": "sugarshin",
