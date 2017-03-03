@@ -5,18 +5,14 @@
   ],
   "plugins": ["babel", "ava"],
   "parser": "babel-eslint",
-  "env": {
-    "browser": true,
-    "node": true
-  },
   "rules": {
     "babel/new-cap": 1,
     "babel/no-await-in-loop": 1,
     "babel/no-invalid-this": 1,
     "semi": [2, "never"],
     "comma-dangle": [2, {
-      "arrays": "only-multiline",
-      "objects": "only-multiline",
+      "arrays": "always-multiline",
+      "objects": "always-multiline",
       "imports": "never",
       "exports": "never",
       "functions": "never"
