@@ -22,7 +22,10 @@ import noopDecorator from 'noop-decorator'
 class A {
   @noopDecorator
   m() { ... }
+  @noopDecorator
+  static sm() { ... }
 }
+A.sm() // noop
 const a = new A
 a.m() // noop
 ```
