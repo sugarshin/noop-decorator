@@ -11,7 +11,7 @@
 Decorator methods to noopify
 
 ```sh
-yarn add -D noop-decorator
+yarn add noop-decorator
 ```
 
 ## Usage
