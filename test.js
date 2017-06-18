@@ -1,7 +1,7 @@
 import test from 'ava'
 import noopDecorator from './src'
 
-test('noopify inctance method', t => {
+test('noopify instance method', t => {
   let actual = true
   class A {
     @noopDecorator
