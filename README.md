@@ -36,15 +36,19 @@ a.m() // noop
 
 ```js
 const comparator = () => 1 === 1
+const comparator1 = state => state
 class A {
   @noopDecorator(comparator)
   m0() { ... }
   @noopDecorator(false)
   m1() { ... }
+  @noopDecorator(comparator1)
+  m2(state) { ... }
 }
 const a = new A
 a.m0() // noop
 a.m1() // run
+a.m2(false) // run
 ```
 
 ## Contributing
