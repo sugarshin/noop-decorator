@@ -35,6 +35,18 @@ test('noopify with comparator function', t => {
   t.true(actual)
 })
 
+test('not noopify with comparator function having parameters', t => {
+  let actual = true
+  const comparator = parameter => parameter
+  class A {
+    @noopDecorator(comparator)
+    m(parameter) { actual = parameter }
+  }
+  const a = new A
+  a.m(false)
+  t.false(actual)
+})
+
 test('not noopify', t => {
   let actual = true
   class A {
